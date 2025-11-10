@@ -1,4 +1,4 @@
-# 🌦 Rainfall Trend Analysis in Bangladesh (1989–2023)
+# Rainfall Trend Analysis in Bangladesh (1989–2023)
 
 This project analyzes long-term rainfall patterns across Bangladesh using **Python**.  
 It applies the **Mann–Kendall trend test** and **Sen’s slope estimator** to detect and quantify changes in seasonal and annual rainfall over 35 years (1989–2023).  
@@ -6,7 +6,7 @@ All visualizations and geospatial analyses are performed using Python libraries 
 
 ---
 
-## 🧾 Objectives
+## Objectives
 - Analyze rainfall data from 32 meteorological stations across Bangladesh (1989–2023)
 - Detect long-term trends using the **Mann–Kendall test**
 - Quantify rate of change using **Sen’s slope estimator**
@@ -14,7 +14,7 @@ All visualizations and geospatial analyses are performed using Python libraries 
 
 ---
 
-## 📊 Methodology
+## Methodology
 1. **Data Preparation**
    - Combined daily rainfall data (1989–2023)
    - Aggregated to monthly and annual totals using `pandas`
@@ -31,7 +31,7 @@ All visualizations and geospatial analyses are performed using Python libraries 
 
 ---
 
-## 🧮 Example Outputs
+##  Example Outputs
 | Type | Description |
 |------|--------------|
 | `Trend_results_stations.csv` | Annual trend results (MK test + Sen’s slope) |
@@ -41,12 +41,9 @@ All visualizations and geospatial analyses are performed using Python libraries 
 
 ---
 
-## 🗺 Example Map
-<img src="outputs/Rainfall_Trend_IDW_Masked.png" width="400">
 
----
 
-## 🧠 Libraries Used
+## Libraries Used
 ```bash
 pandas
 numpy
@@ -66,7 +63,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 rainfall-trend-analysis-bangladesh/
 │
