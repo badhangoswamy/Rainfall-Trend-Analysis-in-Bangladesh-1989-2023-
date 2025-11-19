@@ -7,7 +7,7 @@ All visualizations and geospatial analyses are performed using Python libraries 
 ---
 
 ## Objectives
-- Analyze rainfall data from 32 meteorological stations across Bangladesh (1989–2023)
+- Analyze rainfall data from 31 meteorological stations across Bangladesh (1989–2023)
 - Detect long-term trends using the **Mann–Kendall test**
 - Quantify rate of change using **Sen’s slope estimator**
 - Visualize rainfall trends on maps (station-based and interpolated)
